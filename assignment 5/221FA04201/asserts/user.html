@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Online Tutor Finder</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Admin Dashboard</h2>
+        <nav>
+            <ul>
+                <li><a href="/manage-tutors">Manage Tutors</a></li>
+                <li><a href="/manage-users">Manage Users</a></li>
+                <li><a href="/reports">View Reports</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h3>Manage Tutors</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sample row -->
+                    <tr>
+                        <td>Jane Doe</td>
+                        <td>jane@example.com</td>
+                        <td>Active</td>
+                        <td><button>Edit</button> <button>Delete</button></td>
+                    </tr>
+                    <!-- Add more rows dynamically -->
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
